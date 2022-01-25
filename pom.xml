@@ -70,6 +70,10 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>3.14.0</version>
     </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-changelog-plugin</artifactId> 
+  </plugin>
     </plugins>
   </reporting>
 
@@ -154,4 +158,10 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <scm>
+    <connection>scm:git:git://IPSERVEUR/repository1/monappli</connection>
+    <url>http://IPSERVEUR/svn/monappli-web</url>
+  </scm>
+  
 </project>
