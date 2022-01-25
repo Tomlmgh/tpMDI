@@ -1,0 +1,56 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@packages
+-classpath
+'/home/tom/esir2/MDI/tpmaven/target/classes:/home/tom/esir2/MDI/tpmaven/target/test-classes:/home/tom/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tom/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/tom/esir2/MDI/tpmaven/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/tom/esir2/MDI/tpmaven/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tpmaven 1.0-SNAPSHOT Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/home/tom/esir2/MDI/tpmaven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tpmaven 1.0-SNAPSHOT Test API'
+fr.esir.mdi.ci
+fr.esir.mdi.ci
+/home/tom/esir2/MDI/tpmaven/target/classes = 1643128747054
+/home/tom/esir2/MDI/tpmaven/target/test-classes = 1643128747066
+/home/tom/.m2/repository/junit/junit/4.11/junit-4.11.jar = 1643010560719
+/home/tom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1643010560711
+/home/tom/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar = 1643011003878
+/home/tom/esir2/MDI/tpmaven/src/test/java = 1643010542403
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/search.js = 1643129049347
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/allpackages-index.html = 1643129049331
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/package-search-index.js = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/index-all.html = 1643129049327
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/type-search-index.js = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/stylesheet.css = 1643129049343
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/deprecated-list.html = 1643129049335
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/overview-tree.html = 1643129049307
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/member-search-index.js = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/index.html = 1643129049339
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/script.js = 1643129049343
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/help-doc.html = 1643129049343
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/type-search-index.zip = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/constant-values.html = 1643129049291
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/member-search-index.zip = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/allclasses-index.html = 1643129049331
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/package-search-index.zip = 1643129049323
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/element-list = 1643129049275
+/home/tom/esir2/MDI/tpmaven/target/site/testapidocs/allclasses.html = 1643129049339
