@@ -1,7 +1,7 @@
 package fr.esir.mdi.ci;
 
 /**
- * Classe tab représentant un tableau.
+ * Classe tab représentant un tableau
 */
 public class Tab {
   
@@ -14,7 +14,7 @@ public class Tab {
    * @param taille la taille du tableau
    * @param name le nom de fou furieux de notre tableau
    */
-  Tab(int taille, String name) {
+  public Tab(int taille, String name) {
     this.name = name;
     blague = new int[taille];
   }
@@ -24,7 +24,7 @@ public class Tab {
    * @param i l'indice en question
    * @return la valeur dans le tableau à cet indice
    */
-  int getId(int i) {
+  public int getId(int i) {
     return blague[i];
   }
   
@@ -33,7 +33,7 @@ public class Tab {
    * @param i l'indice du tableau
    * @param valeur la valeur a set
    */
-  void setId(int i, int valeur) {
+  public void setId(int i, int valeur) {
     blague[i] = valeur;
   }
   
@@ -41,7 +41,7 @@ public class Tab {
    * Retourn le nom du tableau.
    * @return le nom du tableau
    */
-  String getName() {
+  public String getName() {
     return name;
   }
   

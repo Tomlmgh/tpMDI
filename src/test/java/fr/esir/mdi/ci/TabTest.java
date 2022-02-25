@@ -29,7 +29,7 @@ public class TabTest {
   public void testSetIndice() {
     Tab tableau = new Tab(1, "name");
     tableau.setId(0, 5);
-    assertTrue(tableau.getId(0) == 4);
+    assertTrue(tableau.getId(0) == 5);
   }
   
 }
