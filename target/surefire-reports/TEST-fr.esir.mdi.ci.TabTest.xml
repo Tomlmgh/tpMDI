@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.esir.mdi.ci.TabTest" time="0.041" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.esir.mdi.ci.TabTest" time="0.037" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/tom/esir2/MDI/tpmaven/target/surefire/surefirebooter9326252903375855196.jar /home/tom/esir2/MDI/tpmaven/target/surefire 2022-01-31T08-45-27_293-jvmRun1 surefire11707296128857023381tmp surefire_0754674114885756828tmp"/>
+    <property name="sun.java.command" value="/home/tom/esir2/MDI/tpmaven/target/surefire/surefirebooter14060061440746124447.jar /home/tom/esir2/MDI/tpmaven/target/surefire 2022-02-25T09-02-49_018-jvmRun1 surefire13495416217118111988tmp surefire_013674080415204822441tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/tom/esir2/MDI/tpmaven/target/test-classes:/home/tom/esir2/MDI/tpmaven/target/classes:/home/tom/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tom/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/tom/esir2/MDI/tpmaven/target/surefire/surefirebooter9326252903375855196.jar"/>
+    <property name="surefire.real.class.path" value="/home/tom/esir2/MDI/tpmaven/target/surefire/surefirebooter14060061440746124447.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.21.04"/>
     <property name="user.name" value="tom"/>
@@ -57,11 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetName" classname="fr.esir.mdi.ci.TabTest" time="0.003"/>
-  <testcase name="testSetIndice" classname="fr.esir.mdi.ci.TabTest" time="0.006">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at fr.esir.mdi.ci.TabTest.testSetIndice(TabTest.java:32)
-</failure>
-  </testcase>
-  <testcase name="testGetIndice" classname="fr.esir.mdi.ci.TabTest" time="0.001"/>
+  <testcase name="testGetName" classname="fr.esir.mdi.ci.TabTest" time="0.001"/>
+  <testcase name="testSetIndice" classname="fr.esir.mdi.ci.TabTest" time="0"/>
+  <testcase name="testGetIndice" classname="fr.esir.mdi.ci.TabTest" time="0"/>
 </testsuite>
